@@ -11,6 +11,8 @@ The following flowchart illustrates the architecture of **PI-MoCoNet**:
 <p align="center">
   <img src="./images/flowchart.svg" alt="PI-MoCoNet Flowchart" style="width: 100%;">
 </p>
+
+
 ## Getting Started
 
 ### Prerequisites
