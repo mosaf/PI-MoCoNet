@@ -1,8 +1,13 @@
-# <p align=center>`PI-MoCoNet: A Physics-Informed Deep Learning Framework for Brain MRI Motion Artifact Correction`</p> # 
+# <p align=center>`A Physics-Informed Deep Learning Framework for Brain MRI Motion Artifact Correction`</p> # 
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
 :fire::fire:**PI-MoCoNet** is a deep learning framework designed to robustly remove motion artifacts in brain MRI images by integrating complementary information from both the spatial and *k*-space domains. 
+
+- Our paper on arXiv: [A Physics-Informed Deep Learning Framework for Brain MRI Motion Artifact Correction](https://arxiv.org) :heart:
+
 
 ## 🔄 Flowchart Overview
 
@@ -77,17 +82,16 @@ python main.py
 If you find **PI-MoCoNet** useful for your research or project, please consider citing our work:
 
 <pre>
-@article{yourcitation2025,
+@article{mojtaba2025physicsinformed,
   title     = {A Physics-Informed Deep Learning Model for MRI Brain Motion Correction},
   author    = {Mojtaba Safari, Shansong Wang, Zach Eidex, Xiofeng Yang},
   journal   = {Journal Name},
   year      = {2025},
   publisher = {Publisher},
-  doi       = {10.xxxx/xxxxxxxx}
+  doi       = {10.xxxx/xxxxxxxx},
+
 }
 </pre>
 
-Alternatively, you can download the BibTeX citation file directly:
 
-[📄 **Download BibTeX citation**](./citation.bib)
 
