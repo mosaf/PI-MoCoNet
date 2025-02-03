@@ -89,7 +89,6 @@ If you find **PI-MoCoNet** useful for your research or project, please consider 
   year      = {2025},
   publisher = {Publisher},
   doi       = {10.xxxx/xxxxxxxx},
-
 }
 </pre>
 
