@@ -8,8 +8,9 @@
 
 The following flowchart illustrates the architecture of **PI-MoCoNet**:
 
-![PI-MoCoNet Flowchart](./images/flowchart.svg)
-
+<p align="center">
+  <img src="./images/flowchart.svg" alt="PI-MoCoNet Flowchart" style="width: 100%;">
+</p>
 ## Getting Started
 
 ### Prerequisites
