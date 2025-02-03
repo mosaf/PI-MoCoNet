@@ -35,17 +35,15 @@ The following flowchart illustrates the architecture of **PI-MoCoNet**:
    ```bash
    git clone https://github.com/mosaf/PI-MoCoNet.git
    cd PI-MoCoNet
-   
+
 2. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
 
-
 ## Project Structure
 
 ```
-
 ```bash
 ├── data_preparation
 │   ├── main_preperation.py  (load .nii files, perform motion simulation and save them to .h5 file)
@@ -81,7 +79,7 @@ python main.py
 
 If you find **PI-MoCoNet** useful for your research or project, please consider citing our work:
 
-<pre>
+```
 @article{mojtaba2025physicsinformed,
   title     = {A Physics-Informed Deep Learning Model for MRI Brain Motion Correction},
   author    = {Mojtaba Safari, Shansong Wang, Zach Eidex, Xiofeng Yang},
@@ -90,7 +88,4 @@ If you find **PI-MoCoNet** useful for your research or project, please consider 
   publisher = {Publisher},
   doi       = {10.xxxx/xxxxxxxx},
 }
-</pre>
-
-
-
+```
