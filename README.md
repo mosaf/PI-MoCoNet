@@ -15,6 +15,7 @@ The following flowchart illustrates the architecture of **PI-MoCoNet**:
 
 ## Getting Started
 
+**⚠️ *Important:* The code for this study will be released publicly <span style="color:red;">  upon acceptance </span>of the manuscript .**
 ### Prerequisites
 
 - Python (>=3.12)
@@ -34,6 +35,41 @@ The following flowchart illustrates the architecture of **PI-MoCoNet**:
 
     ```bash
     pip install -r requirements.txt
+
+
+## Project Structure
+
+```
+
+```bash
+├── data_preparation
+│   ├── main_preperation.py  (load .nii files, perform motion simulation and save them to .h5 file)
+│   ├── motion_simulation2D.py
+├── datasets
+│   ├── data_loader.py
+├── losses
+│   ├── losses.py (contain DC and Dice loss functions)
+├── networks
+│   ├── seg_net.py (motion detection network)
+│   ├── unet_swin.py (motion correction network)
+│   ├── swin_transformer.py
+│   ├── fp16_util.py
+│   ├── basic_ops.py
+├── build.py
+├── main.py
+└── utils.py
+```
+
+
+## Running the Code
+
+To run the project, modify the parameters in the `main.py` file and execute the `main.py` script:
+
+```bash
+python main.py
+```
+
+
 
 
 ## 📚 Citation
