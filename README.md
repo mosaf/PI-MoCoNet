@@ -1,12 +1,13 @@
 # <p align=center>`A Physics-Informed Deep Learning Framework for Brain MRI Motion Artifact Correction`</p> # 
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)    ![Paper Status](https://img.shields.io/badge/Paper%20Status-Under%20Review-yellow)
+
 
 
 :fire::fire:**PI-MoCoNet** is a deep learning framework designed to robustly remove motion artifacts in brain MRI images by integrating complementary information from both the spatial and *k*-space domains. 
 
-- Our paper on arXiv: [A Physics-Informed Deep Learning Framework for Brain MRI Motion Artifact Correction](https://arxiv.org) :heart:
+- Our paper on arXiv: [A Physics-Informed Deep Learning Framework for Brain MRI Motion Artifact Correction](https://arxiv.org/abs/2502.09296) :heart:
 
 
 ## 🔄 Flowchart Overview
@@ -80,12 +81,13 @@ python main.py
 If you find **PI-MoCoNet** useful for your research or project, please consider citing our work:
 
 ```
-@article{mojtaba2025physicsinformed,
-  title     = {A Physics-Informed Deep Learning Model for MRI Brain Motion Correction},
-  author    = {Mojtaba Safari, Shansong Wang, Zach Eidex, Xiofeng Yang},
-  journal   = {Journal Name},
-  year      = {2025},
-  publisher = {Publisher},
-  doi       = {10.xxxx/xxxxxxxx},
+@misc{safari2025physicsinformeddeeplearningmodel,
+      title={A Physics-Informed Deep Learning Model for MRI Brain Motion Correction}, 
+      author={Mojtaba Safari and Shansong Wang and Zach Eidex and Richard Qiu and Chih-Wei Chang and David S. Yu and Xiaofeng Yang},
+      year={2025},
+      eprint={2502.09296},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.09296}, 
 }
 ```
